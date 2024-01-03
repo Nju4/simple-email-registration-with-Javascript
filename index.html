@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js"></script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&family=Open+Sans&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<nav> <img src="images/logo.svg" alt="logo"></nav>
+<body>
+  <h1 class="title">We are launching <span>soon!</span></h1>
+  <h2 class="title2">Subscribe and get notified</h2>
+  <div class="email-box">
+    <input type="email" id="email" placeholder="Your email address..." required="email" >
+    <input type="button" value="Notify Me" id="btn" onclick="validateEmail()">
+    <p id="error-message"> </p>
+  </div>
+  <div class="dashboard">
+    <img src="images/illustration-dashboard.png" alt="illustration-dashboard">
+  </div>
+</body>
+
+<footer>
+  <div class="social-media">
+    <ul>
+      <li><i class='bx bxl-facebook' style='color:#4f82f3' onclick="toggleEffect(this)" ></i></li>
+      <li> <i class='bx bxl-twitter' style='color:#4f82f3'onclick="toggleEffect(this)"></i></li>
+      <li> <i class='bx bxl-instagram' style='color:#4f82f3' onclick="toggleEffect(this)" ></i></li>
+    </ul>
+  </div>
+    <p class="copyright"> Copyright Ping. All rights reserved. </p>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href=" ">Najzua Ramdhanni</a>.
+    </p>
+  </footer>
+
+</html>
